@@ -1,0 +1,257 @@
+= Intro to Domain-Driven Design (DDD)
+
+% : subtitle
+%   in Ruby
+: author
+   Giovanni Sakti
+: institution
+   Starqle
+% : content-source
+%    id_ruby
+% : date
+%    2017-11-01
+: theme
+   starqle
+
+= A Good Software
+
+(('tag:center'))How to create a good software?
+
+== properties
+  : hide-title
+    true
+
+= A Good Software
+
+(('tag:center'))Can we create a good software without good domain knowledge?
+
+== properties
+  : hide-title
+    true
+
+= A Good Software
+
+(('tag:center'))No..never.
+
+== properties
+  : hide-title
+    true
+
+= A Good Software
+
+(('tag:center'))To create a good software, you have to know what that software is all about.
+
+= A Good Software
+
+(('tag:center'))When we begin a software project, we should focus on the ((*domain*)) it is operating in.
+
+= A Good Software
+
+(('tag:center'))Software has to ((*fit harmoniously*)) with the domain it has been created for.
+
+= A Good Software
+
+(('tag:center'))How?
+
+= A Good Software
+
+(('tag:center'))Software has to ((*model the domain*)).
+
+= A Good Software
+
+(('tag:center'))How?
+# domain is something of this world, it cannot just be taken and poured over to become code
+
+= A Good Software
+
+(('tag:center'))We need to:
+
+= A Good Software
+
+* Learn by talking with a domain expert
+* Build an ((*abstraction*)), a blueprint
+
+= Model
+
+(('tag:center'))The abstraction mentioned is the ((*model of the domain*)).
+
+= Model
+
+(('tag:center'))It is ((*not*)) just a diagram
+# although represented as such
+
+= Model
+
+(('tag:center'))It is ((*not*)) just the knowledge of the domain experts
+# should combine knowledge of the domain experts and the software engineers
+
+= Model
+
+(('tag:center'))It is a rigorously organized and selective abstraction of the domain knowledge.
+
+= Model
+
+(('tag:center'))Which has been through a meticulous process..
+
+= Model
+
+* Organize
+* Systematize
+* Divide
+* Group into logical module
+* One at a time
+* Leave unnecessary parts from the domain out.
+
+= Model
+
+(('tag:center'))After the model is done, we can start doing ((*software design*)) and ((*code design*))..
+
+= Model
+
+(('tag:center'))..which is also an important part of the process.\n
+(('sub:Note: Don't assume that it's done when we built the model'))
+
+= Software Design
+
+(('tag:center'))Software design is the process on building the architecture of the software A.K.A ((*the big picture*)).
+
+= Code Design
+
+(('tag:center'))While code design is the process where we start working on the ((*details*)), including the code itself.
+
+= Code Design
+
+(('tag:center'))Code design is important, because constraints and problems are sometimes only known after we start to code.
+
+= Development Methodologies
+
+(('tag:center'))Development Methodologies
+
+== properties
+  : hide-title
+    true
+
+= Development Methodologies
+
+(('tag:center'))There are two common approaches to do the process that we discuss in the previous slides.
+
+= Development Methodologies
+
+* Waterfall
+* Agile
+
+= Waterfall
+
+(('tag:center'))Waterfall is one of the oldest software development methodology. And it is also still quite popular, because it is quite effective in some cases.
+
+= Waterfall
+
+(('tag:center'))The essence of waterfall is that we do a ((*one-way process*)) from requirement gathering, analysis, design, implementation until testing.
+
+= Waterfall
+
+(('tag:center'))Each block of process has one role assigned to it, and they cannot influence the block of process before them.
+
+= Agile
+
+(('tag:center'))Agile is the opposite of waterfall (most of the times).
+
+= Agile
+
+(('tag:center'))It is an ((*iterative*)) and ((*incremental*)) process with continous business stake holder participation.
+
+= Agile
+
+(('tag:center'))The developers are expected to learn more about the customer domain..
+
+= Agile
+
+(('tag:center'))..so that they may influence the design and deliver better software that meets the customer needs.
+
+= Waterfall vs Agile
+
+(('tag:center'))At a glance, you may think that Agile methodology is the better option.
+
+= Waterfall vs Agile
+
+(('tag:center'))But there's a catch.
+
+= Waterfall vs Agile
+
+(('tag:center'))Waterfall tends to overengineer the design.
+
+= Waterfall vs Agile
+
+(('tag:center'))While overengineering is bad in general, it ((*reduce the burden*)) of software developer.
+
+= Waterfall vs Agile
+
+(('tag:center'))Software developer using agile method on the other hand, are required to have solid design principle.
+
+= Waterfall vs Agile
+
+(('tag:center'))Developers who don't have solid design principle working in agile, may produce code that ((*hard to understand*)) and ((*hard to change*)).
+
+= Waterfall vs Agile
+
+(('tag:center'))But the payoff using agile is good.
+
+= Waterfall vs Agile
+
+(('tag:center'))Because waterfall cannot ensure harmonious fit between the model and implementation.
+
+= Domain-Driven Design
+
+(('tag:center'))Enter DDD
+
+== properties
+  : hide-title
+    true
+
+= Domain-Driven Design
+
+(('tag:center'))What we have discussed in great length was an overview on how to do Domain-Driven Design (DDD)
+
+= Domain-Driven Design
+
+(('tag:center'))DDD main goals is to greatly increase development process ability to ((*model*)) and ((*implement*)) complex problem in the domain in a ((*maintainable*)) way.
+
+= Domain-Driven Design
+
+(('tag:center'))DDD was coined by Eric Evans.
+
+= Domain-Driven Design
+
+(('tag:center'))DDD key principle is to combine best practices of ((*design*)) and ((*software development*)).
+
+= Domain-Driven Design
+
+(('tag:center'))When design and software development work together, we can create a better solution.
+
+= Domain-Driven Design
+
+(('tag:center'))And you may see later that DDD models / blueprints are very suitable to be implemented as microservices.
+
+= Domain-Driven Design
+
+(('tag:center'))Things to remember on DDD
+
+= Domain-Driven Design
+
+* Stay hands-on. Modelers need to ((*code*)).
+* Focus on ((*concrete scenario*)). Abstract thinking has to be anchored in concrete cases.
+# Developers sometime overthinking the edge cases
+
+= Domain-Driven Design
+
+* Don't try to apply DDD to everything
+* Experiment a lot and expect to make lots of mistakes
+* Modelling is a creative process
+
+= Thanks!
+
+(('tag:center'))Thanks!
+
+== properties
+  : hide-title
+    true

@@ -248,6 +248,25 @@
 * Experiment a lot and expect to make lots of mistakes
 * Modelling is a creative process
 
+= Cost of Change
+
+(('tag:center'))Cost of Change when doing design
+
+== properties
+  : hide-title
+    true
+
+= Cost of Change
+
+(('tag:center'))(From cheapest to most expensive)
+
+= Cost of Change
+
+* Whiteboard
+* Architecture design
+* Services
+* DB
+
 = Thanks!
 
 (('tag:center'))Thanks!

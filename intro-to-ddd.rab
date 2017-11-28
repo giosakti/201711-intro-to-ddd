@@ -39,7 +39,7 @@
 
 = A Good Software
 
-(('tag:center'))To create a good software, you have to know what that software is all about.
+(('tag:center'))To create a good software, you have to know what that software is ((*all about*)).
 
 = A Good Software
 
@@ -87,7 +87,7 @@
 
 = Model
 
-(('tag:center'))It is a rigorously organized and selective abstraction of the domain knowledge.
+(('tag:center'))It is a rigorously organized and selective ((*abstraction*)) of the domain knowledge.
 
 = Model
 
@@ -121,7 +121,7 @@
 
 = Code Design
 
-(('tag:center'))Code design is important, because constraints and problems are sometimes only known after we start to code.
+(('tag:center'))Code design is important, because constraints and problems are sometimes ((*only known*)) after we start to code.
 
 = Development Methodologies
 
@@ -133,7 +133,7 @@
 
 = Development Methodologies
 
-(('tag:center'))There are two common approaches to do the process that we discuss in the previous slides.
+(('tag:center'))There are two common approaches.
 
 = Development Methodologies
 
@@ -142,15 +142,29 @@
 
 = Waterfall
 
-(('tag:center'))Waterfall is one of the oldest software development methodology. And it is also still quite popular, because it is quite effective in some cases.
+(('tag:center'))Waterfall is one of the oldest software development methodology.
 
 = Waterfall
 
-(('tag:center'))The essence of waterfall is that we do a ((*one-way process*)) from requirement gathering, analysis, design, implementation until testing.
+(('tag:center'))It is also still quite popular, because it is quite effective in some cases.
 
 = Waterfall
 
-(('tag:center'))Each block of process has one role assigned to it, and they cannot influence the block of process before them.
+(('tag:center'))The essence of waterfall is that we do a ((*one-way process*)).
+
+= Waterfall
+
+One-way process of:
+
+* Requirement gathering
+* Analysis
+* Design
+* Implementation
+* Testing
+
+= Waterfall
+
+(('tag:center'))Each block of process has ((*one role*)) assigned to it, and they cannot influence the block of process before them.
 
 = Agile
 
@@ -158,15 +172,23 @@
 
 = Agile
 
-(('tag:center'))It is an ((*iterative*)) and ((*incremental*)) process with continous business stake holder participation.
+(('tag:center'))It is an ((*iterative*)) and ((*incremental*)) process with continuous business stake holder participation.
 
 = Agile
 
-(('tag:center'))The developers are expected to learn more about the customer domain..
+(('tag:center'))The developers are expected to learn more about the ((*customer domain*))..
 
 = Agile
 
-(('tag:center'))..so that they may influence the design and deliver better software that meets the customer needs.
+(('tag:center'))..so that they may ((*influence the design*)) and deliver better software that meets the customer needs.
+
+= Waterfall vs Agile
+
+(('tag:center'))Waterfall vs Agile
+
+== properties
+  : hide-title
+    true
 
 = Waterfall vs Agile
 
@@ -178,7 +200,7 @@
 
 = Waterfall vs Agile
 
-(('tag:center'))Waterfall tends to overengineer the design.
+(('tag:center'))Waterfall tends to ((*overengineer*)) the design.
 
 = Waterfall vs Agile
 
@@ -186,7 +208,7 @@
 
 = Waterfall vs Agile
 
-(('tag:center'))Software developer using agile method on the other hand, are required to have solid design principle.
+(('tag:center'))Software developer using agile method on the other hand, are required to have ((*solid design principle*)).
 
 = Waterfall vs Agile
 
@@ -198,7 +220,7 @@
 
 = Waterfall vs Agile
 
-(('tag:center'))Because waterfall cannot ensure harmonious fit between the model and implementation.
+(('tag:center'))Because waterfall ((*cannot ensure harmonious fit*)) between the model and implementation.
 
 = Domain-Driven Design
 
@@ -218,6 +240,11 @@
 
 = Domain-Driven Design
 
+  # image
+  # src = images/ddd_book.jpg
+  # keep_ratio = true
+  # width = 220
+
 (('tag:center'))DDD was coined by Eric Evans.
 
 = Domain-Driven Design
@@ -226,11 +253,11 @@
 
 = Domain-Driven Design
 
-(('tag:center'))When design and software development work together, we can create a better solution.
+(('tag:center'))When design and software development work together, we can create a ((*better*)) solution.
 
 = Domain-Driven Design
 
-(('tag:center'))And you may see later that DDD models / blueprints are very suitable to be implemented as microservices.
+(('tag:center'))And you may see later that DDD models / blueprints are ((*very suitable*)) to be implemented as microservices.
 
 = Domain-Driven Design
 
@@ -238,15 +265,15 @@
 
 = Domain-Driven Design
 
-* Stay hands-on. Modelers need to ((*code*)).
+* Stay ((*hands-on*)). Modelers need to code.
 * Focus on ((*concrete scenario*)). Abstract thinking has to be anchored in concrete cases.
 # Developers sometime overthinking the edge cases
 
 = Domain-Driven Design
 
-* Don't try to apply DDD to everything
-* Experiment a lot and expect to make lots of mistakes
-* Modelling is a creative process
+* ((*Don't*)) try to apply ((*DDD*)) to ((*everything*))
+* ((*Experiment*)) a lot and expect to make lots of mistakes
+* ((*Modelling*)) is a creative process
 
 = Cost of Change
 
